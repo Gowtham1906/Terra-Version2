@@ -17,3 +17,15 @@ variable "existing_vpc_ids" {
   type        = list(string)
 }
 
+
+#Updated variables.tf
+variable "imported_vpc_configs" {
+  description = "Imported VPC configurations"
+  type = map(object({
+    cidr_block           = string
+    enable_dns_support   = bool
+    enable_dns_hostnames = bool
+    tags                 = map(string)
+  }))
+  default = {}
+}
