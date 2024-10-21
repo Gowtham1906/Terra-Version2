@@ -12,7 +12,7 @@ vpc_configs = {
     enable_dns_support   = true
     enable_dns_hostnames = true
     tags = {
-      Name        = "Terra_Auro"
+      Name        = "Terra_Auto"
       Environment = "production"
     }
   }
