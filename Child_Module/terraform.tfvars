@@ -5,6 +5,7 @@ existing_vpc_ids = [
   "vpc-07bd81c8b6c7c9b6d"
 ]
 
+
 vpc_configs = {
   "vpc" = {
     cidr_block           = "10.0.0.0/16"
